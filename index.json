@@ -1,0 +1,212 @@
+{
+    "#comment": [
+      "",
+      ""
+    ],
+    "html": {
+      "head": {
+        "title": "Главная",
+        "meta": [
+          {
+            "@charset": "utf-8"
+          },
+          {
+            "@name": "viewport",
+            "@content": "width=device-width, initial-scale=1.0"
+          }
+        ],
+        "link": [
+          {
+            "@rel": "stylesheet",
+            "@type": "text/css",
+            "@href": "st.css"
+          },
+          {
+            "@rel": "stylesheet",
+            "@type": "text/css",
+            "@href": "style.css"
+          },
+          {
+            "@href": "https://fonts.googleapis.com/css?family=Cuprum&display=swap",
+            "@rel": "stylesheet"
+          }
+        ]
+      },
+      "body": {
+        "@style": "background-image:url(blueFon.jpg)",
+        "header": {
+          "@id": "menu",
+          "nav": {
+            "@class": "dws-menu",
+            "ul": {
+              "@class": "topmenu",
+              "li": [
+                {
+                  "a": {
+                    "@href": "index.html",
+                    "i": {
+                      "img": {
+                        "@width": "24",
+                        "@height": "24",
+                        "@class": "icon",
+                        "@style": "width",
+                        "@src": "icons8-каракули-50.png",
+                        "@alt": ""
+                      }
+                    },
+                    "#text": "Главная"
+                  }
+                },
+                {
+                  "a": {
+                    "@href": "#",
+                    "i": {
+                      "img": {
+                        "@width": "24",
+                        "@height": "24",
+                        "@class": "icon",
+                        "@style": "width",
+                        "@src": "icons8-режим-чтения-в-chrome-48.png",
+                        "@alt": ""
+                      }
+                    },
+                    "#text": "Учебники"
+                  },
+                  "ul": {
+                    "@class": "submenu",
+                    "li": [
+                      {
+                        "@class": "sub-li",
+                        "a": {
+                          "@href": "Chemistry.html",
+                          "#text": "Химия"
+                        }
+                      },
+                      {
+                        "@class": "sub-li",
+                        "a": {
+                          "@href": "Physic.html",
+                          "#text": "Физика"
+                        }
+                      },
+                      {
+                        "@class": "sub-li",
+                        "a": {
+                          "@href": "Biology.html",
+                          "#text": "Биология"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "a": {
+                    "@href": "#",
+                    "img": {
+                      "@width": "24",
+                      "@height": "24",
+                      "@class": "icon",
+                      "@style": "width",
+                      "@src": "icons8-обратная-связь-100.png",
+                      "@alt": ""
+                    },
+                    "#text": "Обратная связь"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "div": [
+          {
+            "@class": "content",
+            "h1": [
+              {
+                "@align": "center",
+                "@style": "color:white",
+                "#text": "Мы приветствуем Вас на сайте учебников школьных предметов!"
+              },
+              {
+                "@align": "center",
+                "@style": "color:white",
+                "#text": "Выберите нужный Вам учебник:"
+              }
+            ]
+          },
+          {
+            "@class": "my_bok",
+            "div": [
+              {
+                "@class": "blockW b1",
+                "div": {
+                  "@class": "view view-first",
+                  "img": {
+                    "@src": "Biology.jpg"
+                  },
+                  "div": {
+                    "@class": "mask",
+                    "h2": "Биология 5 класс",
+                    "p": "Бактерии, Грибы, Растения",
+                    "a": {
+                      "@href": "Biology.html",
+                      "@class": "info",
+                      "#text": "Читать на сайте"
+                    }
+                  }
+                }
+              },
+              {
+                "@class": "blockWbg b1",
+                "div": {
+                  "@class": "view view-first",
+                  "img": {
+                    "@src": "Chem.jpg"
+                  },
+                  "div": {
+                    "@class": "mask",
+                    "h2": "Химия 8 класс",
+                    "p": "Атомы химических элементов, Простые вещества, Соединения химических элементов и другое",
+                    "a": {
+                      "@href": "Chemistry.html",
+                      "@class": "info",
+                      "#text": "Читать на сайте"
+                    }
+                  }
+                }
+              },
+              {
+                "@class": "block b1",
+                "div": {
+                  "@class": "view view-first",
+                  "img": {
+                    "@src": "Physics.jpg"
+                  },
+                  "div": {
+                    "@class": "mask",
+                    "h2": "Физика 8 класс",
+                    "p": "Тепловые явления, Электрические явления, Электромагнитные явления и другое",
+                    "a": {
+                      "@href": "Physic.html",
+                      "@class": "info",
+                      "#text": "Читать на сайте"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "@class": "footer",
+            "div": {
+              "@class": "footer",
+              "@id": "footer",
+              "div": {
+                "@class": "content",
+                "#text": "© Ирины Грибковой"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }

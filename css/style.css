@@ -1,0 +1,313 @@
+ .fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 5; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+   }
+.myDivElement{
+    text-align:center;
+}
+.myDivElement ul li{
+   display:inline;
+ }
+  .scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+    .topmenu{
+    }
+    #menu, #menu li {
+        margin: 0;
+       padding: 0;
+    }
+
+    #menu {
+        text-align: center; /* пункты и текст горизонтально по центру */
+       background: #03658e;
+    }
+    #menu li{
+        display:inline-block;
+        text-align: center;
+    }
+
+    #menu a {
+        display: block;
+        padding: 5px 15px;
+        color: #fff;
+       font-size:150%;
+       text-decoration: none;
+
+    }
+
+    #menu a:hover {
+
+        background: #8AB8CC;
+
+    }
+    .my_bok {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;  
+    width: 100%;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 0px;
+  position: relative;
+}
+
+#bi li {
+	width:33%;
+}
+
+.sub-li {
+	width:100%;
+}
+
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+.topmenu {
+  margin-right: 0;
+  width: 100%;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header{
+margin-top: 0 px;
+font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+
+.content{
+margin-top: 0 px;
+font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+.dws-menu ul {
+  background: #0050cc;
+}
+.dws-menu .submenu {
+  -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  background: #1874CD;
+}
+.dws-menu ul li:hover .submenu {
+  -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.dws-menu ul a {
+  color: #0050cc;
+}
+
+ #footer {  
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: #FFFFFF; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+ 
+#footer div {  
+width: 100%;     
+bottom: 0; 
+    position:absolute;  
+    padding: 6px; /* Поля вокруг текста */
+    background: #0050cc; /* Цвет фона */
+   }
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.blockWbg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+.b1 {
+  height: 420px;
+  width: 300px;
+}
+
+.blockW {
+  background-image: url(Physics.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+.block {
+  background-image: url(Biology.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+.view { 
+  float: left;
+  border: 10px solid #fff;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: default;
+  background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+
+.view .mask,
+.view .content {
+  width: 300px;
+  height: 420px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  
+}
+
+.view img {
+  display: block;
+}
+
+.view h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  font-family: Raleway, serif;
+  padding: 10px;
+  /*background: rgba(0, 0, 0, 0.8);*/
+  margin: 100px 0 0 0
+}
+
+.view p {
+  font-family: Merriweather, serif;
+  font-style: italic;
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  padding: 0px 20px 0px;
+  text-align: center
+}
+
+.view a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  font-family: Raleway, serif;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000
+}
+
+.view a.info:hover {
+  box-shadow: 0 0 5px #000
+}
+
+
+/*1*/
+
+.view-first img {
+  /*1*/
+  transition: all 0.2s linear;
+  width: 300px;
+  height: 420px;
+}
+
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(0,200,255,255);
+  transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+  transform: translateY(-100px);
+  opacity: 0;
+  font-family: Raleway, serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.view-first a.info {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.view-first:hover img {
+  transform: scale(1.1);
+}
+
+.view-first:hover .mask {
+  opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+  opacity: 1;
+  transform: translateY(5px);
+}
+
+.view-first:hover p {
+  transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+  transition-delay: 0.2s;
+}
+
+
+
+.view-second img {
+  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+}
+
+.view-second .mask {
+  background-color: rgba(12, 19, 27, 0.6);
+  width: 300px;
+  height: 420px;
+  opacity: 1;
+  transform: translate(300px, 420px) rotate(45deg);
+  -webkit-transform: translate(265px, 145px) ;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+

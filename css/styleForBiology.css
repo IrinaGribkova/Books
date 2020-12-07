@@ -1,0 +1,170 @@
+.chemistry {
+  background-image: url(img/PerfectFon.png);
+}
+.bg-fon {
+  background-color:rgba(0,0,0,.3);
+  height:100%;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+}
+.darkChem
+{
+  background: black;
+  opacity: 0.7;
+ 
+}
+.biolog {
+  background-image: url(img/fon.jpg);
+}
+.phy{
+  background-image: url(img/FonForPhysics.jpg);
+}
+.my_bok {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;  
+    width: 100%;
+}
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 5; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+   }
+ .myDivElement{
+    text-align:center;
+}
+.myDivElement ul li{
+   display:inline;
+ }
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+    #menu, #menu li {
+
+        margin: 0;
+
+       padding: 0;
+    }
+    #menu {
+
+        text-align: center; /* пункты и текст горизонтально по центру */
+
+       background: #03658e;
+    }
+    #menu li{
+
+        display:inline-block;
+
+        text-align: center;
+    }
+
+    #menu a {
+
+        display: block;
+
+        padding: 5px 15px;
+
+        color: #fff;
+       
+       font-size:150%;
+
+       text-decoration: none;
+
+    }
+
+    #menu a:hover {
+
+        background: #8AB8CC;
+
+    }
+
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 0px;
+  position: relative;
+}
+
+.bi li {
+	width:33%;
+}
+
+
+.sub-li {
+	width:100%;
+}
+
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+.topmenu {
+  margin-right: 0;
+  width: 100%;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header{
+margin-top: 0 px;
+font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+
+.content{
+margin-top: 0 px;
+font-family: Cuprum, Arial, Helvetica, sans-serif;
+}
+.dws-menu ul {
+  background: #0050cc;
+}
+.dws-menu .submenu {
+  -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  background: #1874CD;
+}
+.dws-menu ul li:hover .submenu {
+  -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.dws-menu ul a {
+  color: #0050cc;
+}
+
+ #footer {
+   
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: #FFFFFF; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+ #footer div {
+    padding: 6px; /* Поля вокруг текста */
+    background: #0050cc; /* Цвет фона */
+   }
+.cast{text-align: left}

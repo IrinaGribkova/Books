@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styleForIndex.css">
+<link rel="stylesheet" type="text/css" href="css/forPrint.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body style="background: url(img/bluefon.jpg);">
+  <div class="topnav" id="myTopnav">
+    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+    <div class="dropdown">
+      <button  class="dropbtn"><i class="fas fa-book-open"></i> Учебники
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Biology.html"><i class="fas fa-dna"></i> Биология</a>
+        <a href="Physic.html"><i class="fas fa-burn"></i> Физика</a>
+        <a href="Chemistry.html"><i class="fas fa-flask"></i> Химия</a>
+      </div>
+    </div> 
+    <a href="#about"><i class="far fa-envelope"></i>  Обратная связь</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+<div class="content">
+  <h1 style="text-align: center; color: white">Мы приветствуем Вас на сайте учебников школьных предметов!</h1>
+  <div class="avd_div" onclick=" myMove()"><a href="#" class="bucn_4_3s">Вперёд к знаниям!</a></div>
+  <h1 style="text-align: center; color: white">Выберите нужный Вам учебник:</h1>
+</div>
+
+<div class="my_bok">
+  <div class="blockW b1">
+      <div class="view view-first">
+       <img src="img/Biology.jpg" />
+        <div class="mask">
+         <h2>Биология 5 класс</h2>
+          <p>Бактерии, Грибы, Растения</p>
+          <a href="Biology.html" class="info">Читать на сайте</a>
+       </div>
+      </div>
+  </div>
+  <div class="blockWbg b1">
+  <div class="view view-first">
+   <img src="img/Chem.jpg" />
+    <div class="mask">
+      <h2>Химия 8 класс</h2>
+      <p>Атомы химических элементов, Простые вещества, Соединения химических элементов и другое</p>
+      <a href="Chemistry.html" class="info">Читать на сайте</a>
+    </div>
+  </div>
+  </div>
+<div class="block b1">
+    <div class="view view-first">
+      <img src="img/Physics.jpg" />
+        <div class="mask">
+         <h2>Физика 8 класс</h2>
+         <p>Тепловые явления, Электрические явления, Электромагнитные явления и другое</p>
+         <a href="Physic.html" class="info">Читать на сайте</a>
+        </div>
+   </div>
+</div>
+</div> 
+<div id ="container">
+  <div id ="animate"></div>
+</div>
+<footer>
+  <div class="container">
+    <div class="footer-col"><span>Грибкова Ирина © 2020</span></div>
+    <div class="sidebox sidebox-social" style="text-align: center;" >
+      <a class="sm-fac" href="https://ru-ru.facebook.com/" target="_blank">Facebook</a> 
+      <a class="sm-twi" href="https://twitter.com/home" target="_blank">Twitter</a> 
+    </div>
+  </div>
+ 
+</footer> 
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 160) {
+      clearInterval(id);
+      elem.style.bottom = '-160px';
+
+    } 
+    else {
+      pos++; 
+      elem.style.bottom = pos + "px"; 
+    }
+  }
+}
+function change() {
+    style.backgroundColor = '#0050cc;';
+    style.color = "white";
+  };
+</script>
+
+</body>
+</html>

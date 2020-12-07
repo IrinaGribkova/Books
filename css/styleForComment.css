@@ -1,0 +1,180 @@
+  
+.contentForComment{
+margin-top: 0 px;
+font-family: Cuprum, Arial, Helvetica, sans-serif;
+text-indent: 30px;
+border: 10px ridge #000080;
+padding: 10px 20px 10px 20px;
+margin: 20px auto;
+background: #0050cc;
+} 
+    #toDoEl {
+    width: 300px; /* Ширина поля в пикселах */
+    height: 50px;
+   } 
+   #author {
+    width: 150px; /* Ширина поля в пикселах */
+    height: 35px;
+   } 
+    .comments {
+    width: 400px;
+    border-color: #191970;
+    
+  }
+  .comment {
+  width: 100%;
+  margin-bottom: 20px;
+  border: #191970;
+  }
+  .comment p {
+  margin: 0 0 10px 0;
+  }
+  .dialog {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  color: #222;
+  border-radius: 3px;
+  margin-left: 20px;
+    border-color: #191970;
+  }
+  .dialog::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px;
+  top: 15px;
+  }
+  .wer{
+  vertical-align:top;
+}
+.wrapper{
+  vertical-align:top;
+}
+.checkbox{
+  position:relative;
+  height:auto;
+  width:32px;
+  display:inline-block;
+}
+.checkbox img{
+  height:32px;
+  width:32px;
+  display:block;
+}
+
+.btn {
+  height:20px;
+  width:110px;
+  margin-left:30px;
+  }
+  .btnDel {
+  height:20px;
+  width:150px;
+  margin-left:30px;
+  }
+  .btnOk {
+  height:20px;
+  width:40px;
+  margin-left:30px;
+  }
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #0050cc;;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #0050cc;;
+}
+
+ul li:hover {
+    background: #0050cc;;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 12px 8px 12px;
+}
+.closeEdit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 8px 12px 8px 12px;
+}
+.closeEdit:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.Ok {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    padding: 8px 12px 8px 12px;
+}
+.Ok:hover {
+    background-color: #f44336;
+    color: white;
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.addBtn {
+    padding: 10px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+  
